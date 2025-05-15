@@ -31,11 +31,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    position: fixed; /* từ absolute -> fixed */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; /* thêm z-index để đè lên hero */
+    z-index: 1000; 
 }
 
 
@@ -119,14 +119,17 @@
 
     #destinations {
       list-style: none;
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      background-color: transparent;
+
       display: flex;
       justify-content: space-between;
       gap: 20px;
     }
 
     .destination {
-      background-color: white;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: transparent;
+      box-shadow: 0 px 8px rgba(0, 0, 0, 0.9);
       border-radius: 10px;
       overflow: hidden;
       flex: 1;
